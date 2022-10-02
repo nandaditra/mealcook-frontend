@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Merriweather', serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,44 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home-title {
+  font-size: 60px;
+  color:#FF914D;
+}
+
+.home-logo {
+  transform: rotate(-50deg);
+}
+
+.title-section {
+  color:#FF914D;
+  font-weight: 700;
+}
+
+.mg-home {
+  margin:4.5% 0%;
+}
+
+.mg-title {
+  margin-top: 10%;
+}
+
+.mg-about {
+  margin: 10% 18%;
+}
+
+h3 {
+  color:#FF914D;
+}
+
+h4 {
+  color:#FF914D;
+  font-weight: 600;  
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color : #FF914D;
+  font-weight: 600;
 }
