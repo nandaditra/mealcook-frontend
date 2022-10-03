@@ -38,24 +38,27 @@ export default function Main() {
 
             <section>
                 {/* this is a Advantages */}
-                <h4>Many Benefit You Get</h4>
-                <div>
-                        <ol>
-                            <li>Available many recipes with much topic</li>
-                            <li>There is contain nutrition in every recipes</li>
-                            <li>Written by best Chef who works in best restaurant</li>
-                            <li>Housewife can learn cooking like Chef</li>
-                            <li>Free Recipes</li>
-                        </ol>
-                </div>
+                <h4 className="title-section text-center">Many Benefit You Get</h4>                                
+                <div className="row">
+                        <div className="col-6">
+                            <img src={benefit} alt="benefit.png"/>
+                        </div>
+                    
+                        <div className="col-6">
+                                <ol>
+                                    <li>Available many recipes with much topic</li>
+                                    <li>There is contain nutrition in every recipes</li>
+                                    <li>Written by best Chef who works in best restaurant</li>
+                                    <li>Housewife can learn cooking like Chef</li>
+                                    <li>Free Recipes</li>
+                                </ol>
+                        </div>
+                </div>    
                 
-                <div>
-                    <img src={benefit} alt="benefit.png"/>
-                </div>
             </section>
 
             <section>
-                <h4>Some Example of the Recipe</h4>
+                <h4 className="title-section text-center">Some Example of the Recipe</h4>
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -87,7 +90,7 @@ export default function Main() {
 
             <section>
                 <div>
-                       <h4>Let's Cooking</h4>
+                       <h4 className="title-section text-center">Let's Cooking</h4>
                        <p>Don't overthinking, let's find a best recipes you want!</p>
                 </div>
                 
