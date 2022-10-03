@@ -30,18 +30,19 @@ export default function Main() {
                     </div>
 
                     <div className="col-12 text-center">
-                        <img src={about} alt="about.png"/>
+                        <img className="w-50"src={about} alt="about.png"/>
                     </div>
                 </div>
                 
             </section>
 
             <section>
-                {/* this is a Advantages */}
-                <h4 className="title-section text-center">Many Benefit You Get</h4>                                
-                <div className="row">
+              <div>
+                  {/* this is a Advantages */}
+                <h2 className="title-section text-center">Many Benefit You Get</h2>                                
+                <div className="row mg-benefit">
                         <div className="col-6">
-                            <img src={benefit} alt="benefit.png"/>
+                            <img className="w-100"src={benefit} alt="benefit.png"/>
                         </div>
                     
                         <div className="col-6">
@@ -53,39 +54,44 @@ export default function Main() {
                                     <li>Free Recipes</li>
                                 </ol>
                         </div>
-                </div>    
+                </div>
+              </div>
+                    
                 
             </section>
 
             <section>
-                <h4 className="title-section text-center">Some Example of the Recipe</h4>
+               <div className="orange-color example">
+                   <h2 className="title-section text-center">Some Example of the Recipe</h2>
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src={pancakes} class="d-block w-100" alt="..."/>
+                        <div id="carouselExampleIndicators" class="carousel slide mg-carousel" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img src={pancakes} class="d-block w-50" alt="..."/>
+                                </div>
+                                <div class="carousel-item">
+                                <img src={salad} class="d-block w-50" alt="..."/>
+                                </div>
+                                <div class="carousel-item">
+                                <img src={meat} class="d-block w-50" alt="..."/>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
                         </div>
-                        <div class="carousel-item">
-                        <img src={salad} class="d-block w-100" alt="..."/>
-                        </div>
-                        <div class="carousel-item">
-                        <img src={meat} class="d-block w-100" alt="..."/>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </button>
-                </div>
+               </div>
+                
             </section>
 
             <section>
