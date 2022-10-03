@@ -26,6 +26,10 @@ code {
   font-weight: 700;
 }
 
+.orange-color {
+  background-color:#FF914D;
+}
+
 .mg-home {
   margin:4.5% 0%;
 }
@@ -35,7 +39,20 @@ code {
 }
 
 .mg-about {
-  margin: 10% 18%;
+  margin: 8% 18%;
+}
+
+.mg-benefit {
+  margin: 6% 8%;
+}
+
+.mg-benefit li {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.mg-carousel {
+  margin: 6% 0%;
 }
 
 h3 {
@@ -50,4 +67,21 @@ h4 {
 .navbar-light .navbar-nav .nav-link {
   color : #FF914D;
   font-weight: 600;
+}
+
+.carousel-inner img {
+   margin:auto;
+}
+
+
+.example .title-section{
+  color:#fff;
+}
+
+
+footer {
+  padding:10px 0px;
+  background-color: #FF914D;
+  text-align: center;
+  color : #fff;
 }
