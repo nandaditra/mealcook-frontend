@@ -14,10 +14,10 @@ export default function Footer() {
              </ul>
 
              <ul>
-               <a href=""><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
-               <a href=""><FontAwesomeIcon icon="fa-brands fa-instagram" /></a>
-               <a href=""><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
-               <a href=""><FontAwesomeIcon icon="fa-brands fa-tiktok" /></a>
+               <a href=""><FontAwesomeIcon icon="fa-brands fa-facebook" />fb</a>
+               <a href=""><FontAwesomeIcon icon="fa-brands fa-instagram" />ig</a>
+               <a href=""><FontAwesomeIcon icon="fa-brands fa-twitter" />twtter</a>
+               <a href=""><FontAwesomeIcon icon="fa-brands fa-tiktok" />tiktok</a>
              </ul>
 
              <p>@copyright-2022 powered by hackntra technologies Ltd</p>
