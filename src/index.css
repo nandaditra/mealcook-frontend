@@ -1,15 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Merriweather', serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./img/background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#b16536;
 }
 
 .home-title {
@@ -28,6 +41,7 @@ code {
 
 .orange-color {
   background-color:#FF914D;
+  color:#fff;
 }
 
 .mg-home {
@@ -74,14 +88,51 @@ h4 {
 }
 
 
-.example .title-section{
-  color:#fff;
+.example-section {
+   margin: 10% 8%;
 }
 
+.lets-cook-section {
+   margin: 10% 10%;
+   text-align: center;
+}
+
+.text-lets-cook {
+  margin: 20% 3%;
+  font-size: 20px;
+}
+
+.btn {
+  margin: auto;
+  align-items: center;
+}
 
 footer {
   padding:10px 0px;
   background-color: #FF914D;
   text-align: center;
   color : #fff;
+  font-size: 14px;
+  font-weight: 100px;
+}
+
+footer a{
+  color:#fff;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color:#b16536;
+  font-weight: bold;
+}
+
+footer li {
+  list-style-type: none;
+  float:left;
+  padding:10px;
+  text-decoration: none;
+}
+
+footer .icon-media {
+  padding:10px;
 }
