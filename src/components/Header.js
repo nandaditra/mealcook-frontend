@@ -16,19 +16,19 @@ export default function Header() {
                         <div className="collapse navbar-collapse ml-md-auto" id="navbarNav">
                            <ul className="navbar-nav ml-auto">
                             <li className="nav-item nav-color">
-                                <a className="nav-link nav-color" href="#">Home</a>
+                                <a className="nav-link nav-color" href="#home">Home</a>
                             </li>
                             <li className="nav-item nav-color">
-                                <a className="nav-link nav-color" href="#">About</a>
+                                <a className="nav-link nav-color" href="#about">What's Is</a>
                             </li>
                             <li className="nav-item nav-color">
-                                <a className="nav-link nav-color" href="#">Advantages</a>
+                                <a className="nav-link nav-color" href="#benefit">Advantages</a>
                             </li>
                             <li className="nav-item nav-color">
-                                <a className="nav-link nav-color">Example</a>
+                                <a className="nav-link nav-color" href="#example-recipe">Example</a>
                             </li>
                             <li className="nav-item nav-color">
-                                <a className="nav-link nav-color">Let's Try</a>
+                                <a className="nav-link nav-color" href="#lets-cook">Let's Try</a>
                             </li>
                             </ul>
                         </div>
