@@ -4,11 +4,12 @@ import benefit from '../img/benefit.png'
 import pancakes from '../img/pancakes.jpg'
 import salad from '../img/salad.jpg'
 import meat from '../img/meat.jpg'
+import letcook from '../img/lets-cook.png'
 
 export default function Main() {
     return (
         <div className="container">
-            <section className="">
+            <section className="" id="home">
                 {/* this is a home section */}
                 <div className="row mg-home">
                    <div className="col-6 mg-title">
@@ -21,7 +22,7 @@ export default function Main() {
                 </div>
             </section>
 
-            <section>
+            <section id="about">
                 {/* This is a about section */}
                 <div className="row mg-about">
                     <div className="col-12 text-center">
@@ -36,7 +37,7 @@ export default function Main() {
                 
             </section>
 
-            <section>
+            <section id="benefit">
               <div>
                   {/* this is a Advantages */}
                 <h2 className="title-section text-center">Many Benefit You Get</h2>                                
@@ -60,8 +61,8 @@ export default function Main() {
                 
             </section>
 
-            <section>
-               <div className="orange-color example">
+            <section id="example-recipe">
+               <div className="example-section ">
                    <h2 className="title-section text-center">Some Example of the Recipe</h2>
 
                         <div id="carouselExampleIndicators" class="carousel slide mg-carousel" data-ride="carousel">
@@ -94,16 +95,28 @@ export default function Main() {
                 
             </section>
 
-            <section>
-                <div>
-                       <h4 className="title-section text-center">Let's Cooking</h4>
-                       <p>Don't overthinking, let's find a best recipes you want!</p>
+            <section id="lets-cook">
+                <div className="lets-cook-section" >
+                    <h2 className="title-section text-center">Let's Cooking</h2>
+        
+                    <div className="row my-5">
+                    
+                        <div className="col-6"> 
+                            <p className="text-lets-cook">Don't overthinking, let's find a best recipes you want!</p>
+
+                            <button className="btn orange-color"type="submit">Let's Find It!</button>
+                        </div>
+
+                        <div className="col-6">
+                            <img src={letcook} alt="home-mealcook.png"/>
+                        </div>
+
+                    </div>
+        
                 </div>
+                    
                 
-                <div>
-                    <img src="" alt="home-mealcook.png"/>
-                </div>
-            </section>
+                </section>
         </div>
     )
 }
