@@ -11,10 +11,10 @@ export default function Footer() {
 
                   <div className="col-4">
                       <ul className="text-center mx-5">
-                         <li><a href="#">Home</a></li>
-                         <li><a href="#">About</a></li>
-                         <li><a href="#">Terms</a></li>
-                         <li><a href="#">Privacy Policy</a></li>
+                         <li><a href="/">Home</a></li>
+                         <li><a href="/">About</a></li>
+                         <li><a href="/">Terms</a></li>
+                         <li><a href="/">Privacy Policy</a></li>
                       </ul>
                   </div>   
 
